@@ -17,7 +17,6 @@
 		7458357D245BE3D3001232E2 /* TowardsCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458357C245BE3D3001232E2 /* TowardsCombineUITests.swift */; };
 		7458358C245BE685001232E2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458358B245BE685001232E2 /* DataModel.swift */; };
 		7458358E245BEFE8001232E2 /* DataPublishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458358D245BEFE8001232E2 /* DataPublishers.swift */; };
-		74583595245EF6A6001232E2 /* Downstream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74583594245EF6A6001232E2 /* Downstream.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		7458357E245BE3D3001232E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7458358B245BE685001232E2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		7458358D245BEFE8001232E2 /* DataPublishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPublishers.swift; sourceTree = "<group>"; };
-		74583594245EF6A6001232E2 /* Downstream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downstream.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 		74583559245BE3CE001232E2 /* TowardsCombine */ = {
 			isa = PBXGroup;
 			children = (
-				74583593245EF65E001232E2 /* JustStorage */,
 				7458358D245BEFE8001232E2 /* DataPublishers.swift */,
 				7458358A245BE66B001232E2 /* ModelClass */,
 				7458355A245BE3CE001232E2 /* AppDelegate.swift */,
@@ -143,14 +140,6 @@
 				7458358B245BE685001232E2 /* DataModel.swift */,
 			);
 			path = ModelClass;
-			sourceTree = "<group>";
-		};
-		74583593245EF65E001232E2 /* JustStorage */ = {
-			isa = PBXGroup;
-			children = (
-				74583594245EF6A6001232E2 /* Downstream.swift */,
-			);
-			path = JustStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +276,6 @@
 				7458358E245BEFE8001232E2 /* DataPublishers.swift in Sources */,
 				7458355F245BE3CE001232E2 /* ViewController.swift in Sources */,
 				7458358C245BE685001232E2 /* DataModel.swift in Sources */,
-				74583595245EF6A6001232E2 /* Downstream.swift in Sources */,
 				7458355B245BE3CE001232E2 /* AppDelegate.swift in Sources */,
 				7458355D245BE3CE001232E2 /* SceneDelegate.swift in Sources */,
 			);
